@@ -1,0 +1,9 @@
+# ARCLIX LABS: THE VAULT - ARCHITECTURE RULES
+1. Use TypeScript interfaces for all Supabase database rows.
+2. Server Components by default. Use 'use client' ONLY for interactive components (Framer Motion, Forms, State).
+3. Dark-aesthetic Cyber-corporate luxury UI: 
+   - Backgrounds: bg-zinc-950, bg-black
+   - Accents: Neon Green (#39FF14), Electric Cyan (#00FFFF), or Gold (#FFD700)
+   - Glassmorphism: bg-white/5 backdrop-blur-md border border-white/10
+4. Absolute zero paid external dependencies.
+5. All database interactions MUST include the 'template_id' for multi-tenant isolation.

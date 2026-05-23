@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: var(--color-zinc-950);
+    color: var(--color-zinc-50);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, #00FFFF 30%, transparent);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-space-grotesk), system-ui, sans-serif;
+  }
+}
